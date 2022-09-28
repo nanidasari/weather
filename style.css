@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(tenor.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 70%;
+    background-color:  rgb(0, 0, 0,0.5);
+    border-radius: 20px;
+    margin: 50px auto ;
+    
+    height: 500px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    
+    
+}
+
+.search{
+    
+    margin: auto;
+    display: flex;
+   flex-direction: row;
+    
+    width: auto;
+    padding: 10px 30px;
+   
+}
+
+.input{
+    margin: auto;
+    width: 60vw;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    color: aliceblue;
+    font-weight: l;
+}
+
+#fas{
+    position: absolute;right: 50px;
+    margin-top: 8.5px;
+   
+    color: rgb(204, 204, 204);
+    
+}
+
+.we{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+}
+#fa{
+    color: aliceblue;
+    z-index: 3;
+    font-size:4rem;
+    
+   
+  
+}
+.deg{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 5px;
+   
+}
+
+.city{
+    text-align: center;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 10px;
+    margin: -10px  1px 50px 12px;
+    
+}
+.dt{
+    text-align: center;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+   margin-top: -30px;
+  font-style: oblique;
+  
+    
+}
+.next-upd{
+    width: auto;
+    margin: 50px 0 0 0;
+    display: grid;grid-gap: 10px;
+    grid-template-areas: 'gd gd gd gd';
+    padding: 10px;
+    ;
+    
+}
+.day{
+    flex: 50%;
+    margin: 10px;
+
+}
+
+.we1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    flex: 50%;
+    
+}
+#fa1{
+    color: aliceblue;
+ 
+    font-size:1rem;
+    
+   
+  
+}
+
+.deg1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    margin: auto 0 10px 0 ;
+   
+}
+
+.days{
+    text-align: center;
+    color: aliceblue;
+    margin-top: -10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.day1{
+    grid-area: 'gd gd gd ';
+   
+}
+
+#time{
+    text-align: center;
+    color: aliceblue;
+   
+}
